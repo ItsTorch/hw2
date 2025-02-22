@@ -53,4 +53,5 @@ aturing 100.00 0
 johnvn 50.00 1
 adal 120.00 1
 chloe 1000.00 1
+cream 1000000.00 1
 </users>
