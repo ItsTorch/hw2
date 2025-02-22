@@ -28,8 +28,6 @@ void MyDataStore::addProduct(Product* p) {
   // put keywords into map
   for (std::set<std::string>::iterator it = keywords.begin(); it != keywords.end(); it++) {
     keywordMap_[convToLower(*it)].insert(p);
-    // testing
-    std::cout << "Processed keyword: " << *it << std::endl;
   }
 }
 
